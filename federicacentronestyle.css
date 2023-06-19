@@ -1,0 +1,144 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 20px;
+    border-bottom: solid 1px rgb(76, 76, 76);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+header button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#greenbutton {
+    color: white;
+    border: black;
+    background-color: green;
+    border-radius: 50px;
+    padding: 10px;
+    transition: all .3s ease;
+}
+
+#greenbutton:hover {
+    background-color: darkgreen;
+}
+
+.authoricon {
+    border-radius: 50px;
+}
+
+.firstline {
+    display: flex;
+    align-items: center;
+}
+
+.articletags {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.tagbutton,
+.starbutton,
+.articletags span {
+    margin: 3px;
+} 
+
+.tagbutton {
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.starbutton,
+.bookmarkbutton {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.bookmarkbutton {
+    margin-left: 300px;
+}
+
+.articleimages {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+.articoli {
+    padding-left: 20px;
+    display: flex;
+    margin-top: 56px;
+    width: 50%;
+    flex-direction: column;
+}
+
+.tagslaterali {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tagslaterali button {
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+}
+
+.laterale {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+}
+
+.laterale p {
+    padding: 5px;
+    color: green;
+    cursor: pointer;
+    border-bottom: solid 1px rgb(208, 197, 197);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.pagina {
+    width: 100%;
+    height: 100%;
+}
+
+.finali button {
+    border: none;
+    color: grey;
+    background: none;
+    cursor: pointer;
+}
